@@ -1,0 +1,8 @@
+.home .mint-swipe{
+    height: 3.6rem;
+}
+.home .mint-swipe-indicators{
+    font-size: .16rem;
+}
+.home .mint-searchbar{ padding: .14rem; }
+.home .mint-searchbar-inner{ height: .4rem; padding: 0 .2rem; }

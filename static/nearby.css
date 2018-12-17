@@ -1,0 +1,40 @@
+
+.mint-swipe-indicators{display: none}
+.nearby .mint-tab-item-label {
+  font-size: 0.25rem;
+  transition: all .1s;
+  padding: 0;height: 0.7rem; line-height: 0.7rem!important;
+}
+.nearby .mint-navbar .mint-tab-item.is-selected{
+  border: none;
+}
+.nearby .mint-tab-item.is-selected .mint-tab-item-label{
+  font-size: 0.33rem!important;color: #f45349;
+}
+.nearby {
+  background: #fff!important;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+.l{float: left}.r{float: right}
+
+
+.swiper-container{ width: 100%; margin: 0 auto; overflow: hidden;}
+.swiper-container, .swiper-wrapper, .swiper-slide {
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+}
+.swiper-container { 
+    -webkit-perspective:1200px;
+    -moz-perspective:1200px;
+    -o-perspective:1200px;
+    perspective:1200px;
+}
+.swiper-wrapper {
+    /* Windows 8 IE 10 fix */
+    -ms-perspective:1200px;
+}
+.swiper-slide img{ width: 100%; }
